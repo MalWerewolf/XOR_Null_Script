@@ -19,10 +19,14 @@ There are MANY ways this script will apply the XOR key: You can specify the HEX 
 
 When it runs into:
 
-* NULL byte "00" 
+* NULL byte "00"
+
 OR when
+
 * Byte is equal to the XOR key byte 
+
 You can specify it to either:
+
 * XOR the byte "normally". 
 * Skip byte (without key byte changing) 
 * Skip byte (incrementing key byte by 1) '''Could be modified to increment by a certain number''' 
